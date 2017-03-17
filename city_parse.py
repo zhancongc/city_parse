@@ -68,7 +68,7 @@ if __name__ == "__main__":
 	array = get_data('city.txt')
 
 	# open the file to be outputing
-	with open("out", "a+") as output:
+	with open("city.json", "a+") as output:
 
 		print("start writing to the file")
 
